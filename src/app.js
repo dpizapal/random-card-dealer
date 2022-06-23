@@ -39,15 +39,18 @@ window.onload = function() {
   let newNumber = document.querySelector("p");
   newNumber.innerHTML = randomNumber();
   //cambiar pinta
+  let newSuit = randomSuit();
+
   let newTopSuit = document.querySelector(".suit-top");
-  newTopSuit.innerHTML = randomSuit();
+  newTopSuit.innerHTML = newSuit;
 
   let newBottomSuit = document.querySelector(".suit-bottom");
-  newBottomSuit.innerHTML = randomSuit();
+  newBottomSuit.innerHTML = newSuit;
 
   //cambiar color
-  let card = document.querySelector(".card");
-  if (randomSuit === "&hearts" || randomSuit === "&diamonds") {
-    card.style.color = "red";
+
+  if (newSuit == "&hearts;" || newSuit == "&diams;") {
+    newTopSuit.style.color = "red";
+    newBottomSuit.style.color = "red";
   }
 };
