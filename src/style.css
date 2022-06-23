@@ -25,10 +25,10 @@
   bottom: -5px;
 }
 .number {
-  font-size: 70px;
+  font-size: 120px;
   position: absolute;
-  top: 35%;
-  left: 37%;
+  top: 24%;
+  left: 32%;
 }
 
 #timer {
