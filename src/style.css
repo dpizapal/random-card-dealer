@@ -2,12 +2,12 @@
 
 .card {
   background: white;
-  height: 350px;
-  width: 250px;
+  height: 330px;
+  width: 235px;
   position: relative;
   border-radius: 5%;
   display: flex;
-  margin-top: 5%;
+  margin-top: 15%;
   margin-left: 40%;
 }
 
@@ -25,10 +25,9 @@
   bottom: -5px;
 }
 .number {
-  font-size: 120px;
-  position: absolute;
-  top: 24%;
-  left: 32%;
+  font-size: 100px;
+  text-align: center;
+  margin-top: 35%;
 }
 
 #timer {
@@ -40,9 +39,16 @@
 #btn {
   margin-top: 2%;
   margin-left: 40%;
-  width: 250px;
+  width: 235px;
 }
 
 body {
   background: green;
+}
+
+.red {
+  color: red;
+}
+.black {
+  color: black;
 }

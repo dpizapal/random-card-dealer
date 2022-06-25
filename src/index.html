@@ -13,43 +13,16 @@
     <link rel="shortcut icon" href="./4geeks.ico" />
   </head>
   <body>
-    <div id="timer">
-      This page will reload in
-      <span id="cnt" style="color:red;">10</span> Seconds
-    </div>
-    <div class="card">
-      <div class="suit-top"></div>
+    <div>
+      <div class="card">
+        <div class="suit-top"></div>
 
-      <div class="number">
-        <p></p>
+        <div class="number"></div>
+
+        <div class="suit-bottom"></div>
       </div>
-
-      <div class="suit-bottom"></div>
     </div>
     <a href="#" class="btn btn-dark" id="btn">Card Generator</a>
     <script src="app.js"></script>
-    <script>
-      var counter = 10;
-
-      // La cuenta atrás
-      window.setInterval(function() {
-        counter--;
-        if (counter >= 0) {
-          var span;
-          span = document.getElementById("cnt");
-          span.innerHTML = counter;
-        }
-        if (counter === 0) {
-          clearInterval(counter);
-        }
-      }, 1000);
-
-      window.setInterval("refresh()", 10000);
-
-      // Refrescar o Recargar pagina
-      function refresh() {
-        window.location.reload();
-      }
-    </script>
   </body>
 </html>
