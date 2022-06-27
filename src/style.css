@@ -1,7 +1,7 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
 
 .card {
-  background: white;
+  background: lightyellow;
   height: 330px;
   width: 235px;
   position: relative;
@@ -43,7 +43,7 @@
 }
 
 body {
-  background: green;
+  background: linear-gradient(green, lightgreen, green 75%);
 }
 
 .red {
